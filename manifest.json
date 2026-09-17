@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Kuesioner Yoshua!!!!",
+  "version": "1.0",
+  "description": "buat yang cape ngisi Kuesioner.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Klik untuk Isi Kuesioner"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
